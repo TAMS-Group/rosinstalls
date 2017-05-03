@@ -19,8 +19,5 @@
     version: indigo-devel
 - git:
     local-name: upstream/universal_robot
-    uri: https://github.com/ros-industrial/universal_robot.git
-    version: indigo-devel
-- git:
-    local-name: upstream/ur_modern_driver
-    uri: https://github.com/ThomasTimm/ur_modern_driver.git
+    uri: https://github.com/TAMS-Group/universal_robot
+    version: indigo-xamla_rounded_cap
