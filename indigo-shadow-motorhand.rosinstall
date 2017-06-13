@@ -33,3 +33,9 @@
 - git:
     local-name: shadow/sr_tools
     uri: https://github.com/shadow-robot/sr_tools.git
+- git:
+    local-name: shadow/sr_ur_arm
+    uri: https://github.com/shadow-robot/sr_ur_arm.git
+- git:
+    local-name: tams_motorhand
+    uri: https://gogs.crossmodal-learning.org/TAMS/tams_motorhand.git
