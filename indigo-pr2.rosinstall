@@ -49,3 +49,6 @@
 - git:
     local-name: tams_pr2
     uri: https://gogs.crossmodal-learning.org/TAMS/tams_pr2.git
+- git:
+    local-name: tams_motorhand
+    uri: https://gogs.crossmodal-learning.org/TAMS/tams_motorhand.git
