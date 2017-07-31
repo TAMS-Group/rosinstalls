@@ -22,5 +22,5 @@
     version: kinetic-xamla_rounded_cap
 - git:
     local-name: upstream/robotiq
-    uri: https://github.com/ros-industrial/robotiq.git
+    uri: https://github.com/TAMS-Group/robotiq.git
     version: kinetic-devel_bluetooth
