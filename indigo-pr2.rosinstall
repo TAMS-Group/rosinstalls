@@ -38,8 +38,7 @@
     version: F#19_urdfParser
 - git:
     local-name: shadow/sr_interface
-    uri: https://github.com/TAMS-Group/sr_interface.git
-    version: urdfParserPy
+    uri: https://github.com/shadow-robot/sr_interface.git
 - git:
     local-name: shadow/sr_tools
     uri: https://github.com/shadow-robot/sr_tools.git
