@@ -1,0 +1,10 @@
+- git:
+    local-name: tams/tams_turtlebot
+    uri: https://github.com/TAMS-Group/tams_turtlebot.git
+- git:
+    local-name: rpc_game_client
+    uri: https://github.com/TAMS-Group/rpc_game_client.git
+- git:
+    local-name: upstream/apriltags_ros
+    uri: https://github.com/RIVeR-Lab/apriltags_ros.git
+    version: indigo-devel
