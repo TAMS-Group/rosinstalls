@@ -18,8 +18,8 @@
     uri: https://github.com/Zagitta/ur_modern_driver
 - git:
     local-name: upstream/universal_robot
-    uri: https://github.com/TAMS-Group/universal_robot
-    version: kinetic-xamla_rounded_cap
+    uri: https://github.com/ros-industrial/universal_robot.git
+    version: kinetic-devel
 - git:
     local-name: upstream/robotiq
     uri: https://github.com/TAMS-Group/robotiq.git
