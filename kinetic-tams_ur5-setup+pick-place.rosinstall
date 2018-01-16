@@ -17,6 +17,9 @@
     local-name: upstream/ur_modern_driver
     uri: https://github.com/Zagitta/ur_modern_driver
 - git:
+    local-name: upstream/industrial_core
+    uri: https://github.com/ros-industrial/industrial_core.git
+- git:
     local-name: upstream/universal_robot
     uri: https://github.com/ros-industrial/universal_robot.git
     version: kinetic-devel
