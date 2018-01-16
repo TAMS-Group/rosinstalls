@@ -28,9 +28,6 @@
     uri: https://github.com/TAMS-Group/robotiq.git
     version: kinetic-devel_bluetooth
 - git:
-    local-name: upstream/iai_kinect2
-    uri: https://github.com/code-iai/iai_kinect2.git
-- git:
     local-name: upstream/apriltags_ros
     uri: https://github.com/RIVeR-Lab/apriltags_ros.git
     version: indigo-devel
