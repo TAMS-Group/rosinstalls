@@ -23,3 +23,4 @@ To compile the listed packages in this file, some packages might be required to 
 * libcap-dev (Ethercat Grant)
 * libuv-dev
 * ros-kinetic-soem
+* ros-kinetic-socketcan-interface
