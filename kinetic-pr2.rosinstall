@@ -1,7 +1,8 @@
 - git:
     local-name: pr2/pr2_mechanism
     #uri: https://github.com/PR2/pr2_mechanism.git
-    uri: https://github.com/einig/pr2_mechanism.git
+    #uri: https://github.com/einig/pr2_mechanism.git
+    uri: https://github.com/TAMS-Group/pr2_mechanism.git
 - git:
     local-name: pr2/pr2_mechanism_msgs
     uri: https://github.com/PR2/pr2_mechanism_msgs.git
