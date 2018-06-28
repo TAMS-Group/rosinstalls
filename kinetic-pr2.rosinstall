@@ -54,6 +54,7 @@
 - git:
     local-name: shadow/sr_interface
     uri: https://github.com/shadow-robot/sr_interface.git
+    version: kinetic-devel
 - git:
     local-name: shadow/sr_tools
     uri: https://github.com/shadow-robot/sr_tools.git
