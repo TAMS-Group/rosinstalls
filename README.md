@@ -4,23 +4,23 @@ This repository provides a list of rosinstall files for different setups.
 
 ---
 
-To compile the listed packages in this file, some packages might be required to be installed with ```sudo apt install```:
-* ros-kinetic-convex-decomposition
-* ros-kinetic-ivcon
-* ros-kinetic-moveit
-* ros-kinetic-controller-interface
-* ros-kinetic-realtime-tools
-* ros-kinetic-four-wheel-steering-msgs
-* ros-kinetic-four-wheel-steering-controller
-* ros-kinetic-ros-controllers
-* ros-kinetic-gazebo-ros
-* ros-kinetic-gazebo-ros-control
-* ros-kinetic-pr2-common
-* ros-kinetic-pr2-msgs
-* ros-kinetic-pr2-description
-* libmagick++-dev (ImageMagick)
-* binutils-dev (BFD library)
-* libcap-dev (Ethercat Grant)
-* libuv-dev
-* ros-kinetic-soem
-* ros-kinetic-socketcan-interface
+To compile the listed packages in this file, some packages might be required to be installed:  
+```sudo apt install ros-kinetic-convex-decomposition```  
+```sudo apt install ros-kinetic-ivcon```  
+```sudo apt install ros-kinetic-moveit```  
+```sudo apt install ros-kinetic-controller-interface```  
+```sudo apt install ros-kinetic-realtime-tools```  
+```sudo apt install ros-kinetic-four-wheel-steering-msgs```  
+```sudo apt install ros-kinetic-four-wheel-steering-controller```  
+```sudo apt install ros-kinetic-ros-controllers```  
+```sudo apt install ros-kinetic-gazebo-ros```  
+```sudo apt install ros-kinetic-gazebo-ros-control```  
+```sudo apt install ros-kinetic-pr2-common```  
+```sudo apt install ros-kinetic-pr2-msgs```  
+```sudo apt install ros-kinetic-pr2-description```  
+```sudo apt install libmagick++-dev (ImageMagick)```  
+```sudo apt install binutils-dev (BFD library)```  
+```sudo apt install libcap-dev (Ethercat Grant)```  
+```sudo apt install libuv-dev```  
+```sudo apt install ros-kinetic-soem```  
+```sudo apt install ros-kinetic-socketcan-interface```  
