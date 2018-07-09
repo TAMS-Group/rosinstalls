@@ -18,9 +18,9 @@ To compile the listed packages in this file, some packages might be required to 
 ```sudo apt install ros-kinetic-pr2-common```  
 ```sudo apt install ros-kinetic-pr2-msgs```  
 ```sudo apt install ros-kinetic-pr2-description```  
-```sudo apt install libmagick++-dev (ImageMagick)```  
-```sudo apt install binutils-dev (BFD library)```  
-```sudo apt install libcap-dev (Ethercat Grant)```  
+```sudo apt install libmagick++-dev```  
+```sudo apt install binutils-dev```  
+```sudo apt install libcap-dev```  
 ```sudo apt install libuv-dev```  
 ```sudo apt install ros-kinetic-soem```  
 ```sudo apt install ros-kinetic-socketcan-interface```  
