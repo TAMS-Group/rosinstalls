@@ -1,0 +1,106 @@
+- git:
+    local-name: demos/count_demo
+    uri: https://gogs.crossmodal-learning.org/TAMS/count_demo
+- git:
+    local-name: demos/vocus2_ros
+    uri: https://git.informatik.uni-hamburg.de/lauri/vocus2_ros
+- git:
+    local-name: moveit/bio_ik
+    uri: https://github.com/TAMS-Group/bio_ik
+- git:
+    local-name: moveit/fcl
+    uri: https://github.com/flexible-collision-library/fcl
+- git:
+    local-name: moveit/geometric_shapes
+    uri: https://github.com/ros-planning/geometric_shapes
+- git:
+    local-name: moveit/moveit
+    uri: https://github.com/ros-planning/moveit
+- git:
+    local-name: moveit/moveit_msgs
+    uri: https://github.com/ros-planning/moveit_msgs
+- git:
+    local-name: moveit/moveit_resources
+    uri: https://github.com/ros-planning/moveit_resources
+- git:
+    local-name: moveit/octomap
+    uri: https://github.com/octomap/octomap
+- git:
+    local-name: moveit/ompl
+    uri: https://github.com/ompl/ompl
+- git:
+    local-name: moveit/trac_ik
+    uri: https://bitbucket.org/traclabs/trac_ik.git
+- git:
+    local-name: moveit/warehouse_ros
+    uri: https://github.com/ros-planning/warehouse_ros
+- git:
+    local-name: pr2/pr2_apps
+    uri: http://github.com/TAMS-Group/pr2_apps
+- git:
+    local-name: pr2/pr2_common
+    uri: https://github.com/TAMS-Group/pr2_common.git
+- git:
+    local-name: pr2/pr2_mechanism
+    uri: https://github.com/TAMS-Group/pr2_mechanism
+- git:
+    local-name: pr2/pr2_motors_analyzer
+    uri: https://github.com/TAMS-Group/pr2_motors_analyzer
+- git:
+    local-name: pr2/pr2_navigation
+    uri: https://github.com/TAMS-Group/pr2_navigation
+- git:
+    local-name: pr2/pr2_robot
+    uri: https://v4hn@github.com/v4hn/pr2_robot
+- git:
+    local-name: shadow/ros_ethercat
+    uri: https://github.com/shadow-robot/ros_ethercat.git
+- git:
+    local-name: shadow/sr-config
+    uri: https://github.com/shadow-robot/sr-config.git
+- git:
+    local-name: shadow/sr-ros-interface
+    uri: https://github.com/shadow-robot/sr-ros-interface.git
+- git:
+    local-name: shadow/sr-ros-interface-ethercat
+    uri: https://github.com/shadow-robot/sr-ros-interface-ethercat.git
+- git:
+    local-name: shadow/sr-visualization
+    uri: https://github.com/shadow-robot/sr-visualization.git
+- git:
+    local-name: shadow/sr_common
+    uri: https://github.com/shadow-robot/sr_common.git
+- git:
+    local-name: shadow/sr_core
+    #uri: https://github.com/shadow-robot/sr_core.git
+    uri: https://github.com/TAMS-Group/sr_core
+    version:  indigo-devel-tams
+- git:
+    local-name: shadow/sr_interface
+    #uri: https://github.com/shadow-robot/sr_interface.git
+    uri: https://github.com/TAMS-Group/sr_interface
+    version: indigo-devel-disable-mfj4
+- git:
+    local-name: shadow/sr_tools
+    uri: https://github.com/shadow-robot/sr_tools.git
+- git:
+    local-name: shadow/sr_ur_arm
+    uri: https://github.com/shadow-robot/sr_ur_arm.git
+- git:
+    local-name: tams/tams_biotac
+    uri: https://gogs.crossmodal-learning.org/yannick.jonetzko/tams_biotac.git
+- git:
+    local-name: tams/tams_maps
+    uri: gogs@git.crossmodal-learning.org:TAMS/tams_maps.git
+- git:
+    local-name: tams/tams_motorhand
+    uri: https://gogs.crossmodal-learning.org/TAMS/tams_motorhand.git
+- git:
+    local-name: tams/tams_pr2
+    uri: gogs@git.crossmodal-learning.org:TAMS/tams_pr2.git
+- git:
+    local-name: upstream/apriltags2_ros
+    uri: https://github.com/dmalyuta/apriltags2_ros.git
+- git:
+    local-name: upstream/ros_controllers
+    uri: https://github.com/TAMS-Group/ros_controllers.git
