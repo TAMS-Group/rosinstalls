@@ -1,0 +1,37 @@
+# top-level catkin_make development workspace
+# for TIAGo bartender demo
+
+# to build, source underlying -system (install) workspace, then
+# - rename file to src/.rosinstall
+# - run `wstool update -t src`
+# - `catkin_make`
+
+- git:
+    local-name: apriltag_command_cards
+    uri: https://gogs.mafiasi.de/ruppel/apriltag_command_cards.git
+- git:
+    local-name: bitbots_behaviour
+    uri: https://github.com/TAMS-Group/bitbots_behaviour
+    version: tams-master
+- git:
+    local-name: mtc_pour
+    uri: https://github.com/TAMS-Group/mtc_pour
+- git:
+    local-name: person_detection
+    uri: https://gogs.mafiasi.de/ruppel/person_detection.git
+- git:
+    local-name: tams_apriltags
+    uri: https://github.com/TAMS-Group/tams_apriltags
+- git:
+    local-name: tams_bartender_recognition
+    uri: https://github.com/TAMS-Group/tams_bartender_recognition.git
+- git:
+    local-name: tiago_bartender_mtc
+    uri: https://gogs.mafiasi.de/goerner/tiago_bartender_mtc
+- git:
+    local-name: tiago_moveit_config
+    uri: https://github.com/TAMS-Group/tiago_moveit_config.git
+    version: tams-indigo-devel
+- git:
+    local-name: tiago_world
+    uri: https://gogs.mafiasi.de/hendrich/tiago_world.git
