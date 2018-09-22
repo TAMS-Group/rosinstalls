@@ -47,6 +47,9 @@
     uri: https://github.com/v4hn/apriltags2_ros
     version: pr-master-apriltags-include-folder
 - git:
+    local-name: various/humanoid_league_msgs
+    uri: https://github.com/bit-bots/humanoid_league_msgs
+- git:
     local-name: various/joint_state_publisher
     uri: https://github.com/v4hn/joint_state_publisher.git
     version: pr-kinetic-fix-planar-joint

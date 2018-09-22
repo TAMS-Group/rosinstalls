@@ -8,17 +8,20 @@
 
 - git:
     local-name: apriltag_command_cards
-    uri: https://gogs.mafiasi.de/ruppel/apriltag_command_cards.git
+    uri: gogs@gogs.mafiasi.de:ruppel/apriltag_command_cards.git
 - git:
     local-name: bitbots_behaviour
     uri: https://github.com/TAMS-Group/bitbots_behaviour
     version: tams-master
 - git:
+    local-name: bitbots_tools
+    uri: gogs@gogs.mafiasi.de:Bit-Bots/bitbots_tools
+- git:
     local-name: mtc_pour
     uri: https://github.com/TAMS-Group/mtc_pour
 - git:
     local-name: person_detection
-    uri: https://gogs.mafiasi.de/ruppel/person_detection.git
+    uri: gogs@gogs.mafiasi.de:ruppel/person_detection.git
 - git:
     local-name: tams_apriltags
     uri: https://github.com/TAMS-Group/tams_apriltags
@@ -27,11 +30,11 @@
     uri: https://github.com/TAMS-Group/tams_bartender_recognition.git
 - git:
     local-name: tiago_bartender_mtc
-    uri: https://gogs.mafiasi.de/goerner/tiago_bartender_mtc
+    uri: gogs@gogs.mafiasi.de:goerner/tiago_bartender_mtc
 - git:
     local-name: tiago_moveit_config
     uri: https://github.com/TAMS-Group/tiago_moveit_config.git
     version: tams-indigo-devel
 - git:
     local-name: tiago_world
-    uri: https://gogs.mafiasi.de/hendrich/tiago_world.git
+    uri: gogs@gogs.mafiasi.de:hendrich/tiago_world.git
