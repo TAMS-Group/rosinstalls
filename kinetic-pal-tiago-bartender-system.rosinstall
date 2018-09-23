@@ -43,6 +43,10 @@
     uri: https://github.com/TAMS-Group/tiago_robot.git
     version: tams-kinetic
 - git:
+    local-name: various/apriltags_ros
+    uri: https://github.com/RIVeR-Lab/apriltags_ros
+    version: indigo-devel
+- git:
     local-name: various/apriltags2_ros
     uri: https://github.com/v4hn/apriltags2_ros
     version: pr-master-apriltags-include-folder
