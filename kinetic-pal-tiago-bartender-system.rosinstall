@@ -28,7 +28,8 @@
     version: tams-master
 - git:
     local-name: tiago/pal_gripper
-    uri: https://github.com/pal-robotics/pal_gripper.git
+    uri: https://github.com/TAMS-Group/pal_gripper.git
+    version: wide-fingers_kinetic-devel
 - git:
     local-name: tiago/pal_msgs
     uri: https://github.com/pal-robotics/pal_msgs
