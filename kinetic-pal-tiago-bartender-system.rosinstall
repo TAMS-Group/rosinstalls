@@ -34,6 +34,9 @@
     local-name: tiago/pal_msgs
     uri: https://github.com/pal-robotics/pal_msgs
 - git:
+    local-name: tiago/pal_msgs2
+    uri: https://gogs.mafiasi.de/goerner/pal_msgs2
+- git:
     local-name: tiago/play_motion
     uri: https://github.com/pal-robotics/play_motion
 - git:
