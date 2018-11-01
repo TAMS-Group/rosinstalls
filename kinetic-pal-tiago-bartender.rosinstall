@@ -28,6 +28,7 @@
 - git:
     local-name: tams_bartender_recognition
     uri: https://github.com/TAMS-Group/tams_bartender_recognition.git
+    version: tiago
 - git:
     local-name: tams_bartender_glass_recognition
     uri: gogs@gogs.mafiasi.de:ruppel/tams_bartender_glass_recognition
