@@ -32,3 +32,7 @@
     local-name: upstream/apriltags_ros
     uri: https://github.com/RIVeR-Lab/apriltags_ros.git
     version: indigo-devel
+- git:
+    local-name: upstream/apriltags2_ros
+    uri: https://github.com/dmalyuta/apriltags2_ros.git
+    version: master
