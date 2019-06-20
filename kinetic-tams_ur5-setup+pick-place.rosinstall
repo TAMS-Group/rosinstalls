@@ -29,10 +29,10 @@
     uri: https://github.com/TAMS-Group/robotiq.git
     version: kinetic-devel_bluetooth-rebase
 - git:
-    local-name: upstream/apriltags_ros
-    uri: https://github.com/RIVeR-Lab/apriltags_ros.git
-    version: indigo-devel
+    local-name: upstream/apriltag_ros
+    uri: https://github.com/AprilRobotics/apriltag_ros
+    version: master
 - git:
-    local-name: upstream/apriltags2_ros
-    uri: https://github.com/dmalyuta/apriltags2_ros.git
+    local-name: upstream/apriltag_lib
+    uri: https://github.com/AprilRobotics/apriltag
     version: master
