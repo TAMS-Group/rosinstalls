@@ -17,7 +17,7 @@
 - git:
     local-name: pr2/pr2_common
     uri: https://github.com/TAMS-Group/pr2_common.git
-    version: kinetic-devel
+    version: kinetic-devel-tams
 - git:
     local-name: shadow/ethercat_grant
     uri: https://github.com/shadow-robot/ethercat_grant.git
