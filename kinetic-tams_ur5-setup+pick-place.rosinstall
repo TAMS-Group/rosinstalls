@@ -15,8 +15,8 @@
     uri: https://github.com/TAMS-Group/robotiq_s_model_action_server.git
 - git:
     local-name: upstream/ur_modern_driver
-    uri: https://github.com/ros-industrial/ur_modern_driver.git
-    version: kinetic-devel
+    uri: https://github.com/v4hn/ur_modern_driver.git
+    version: kinetic_ur_5_4
 - git:
     local-name: upstream/industrial_core
     uri: https://github.com/ros-industrial/industrial_core.git
