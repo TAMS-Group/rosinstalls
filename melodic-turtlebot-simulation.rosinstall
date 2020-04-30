@@ -1,0 +1,32 @@
+- git:
+    local-name: joy
+    uri: https://github.com/ros-gbp/joystick_drivers-release
+    version: release/melodic/joy/1.13.0-1
+- git:
+    local-name: kobuki
+    uri: https://github.com/TAMS-Group/kobuki
+    version: devel-sim-only
+- git:
+    local-name: kobuki_desktop
+    uri: https://github.com/TAMS-Group/kobuki_desktop
+    version: devel-sim-only
+- git:
+    local-name: kobuki_msgs
+    uri: https://github.com/yujinrobot/kobuki_msgs
+    version: release/0.7-melodic
+- git:
+    local-name: turtlebot
+    uri: https://github.com/TAMS-Group/turtlebot
+    version: melodic-simulated-laser
+- git:
+    local-name: turtlebot_interactions
+    uri: https://github.com/TAMS-Group/turtlebot_interactions
+    version: indigo-robot-no-camera
+- git:
+    local-name: turtlebot_simulator
+    uri: https://github.com/TAMS-Group/turtlebot_simulator
+    version: melodic-simulated-laser
+- git:
+    local-name: yujin_ocs-release
+    uri: https://github.com/yujinrobot-release/yujin_ocs-release
+    version: release/melodic/yocs_cmd_vel_mux
