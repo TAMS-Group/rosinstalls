@@ -28,8 +28,8 @@ ros-"$ROS_DISTRO"-pr2-msgs \
 ros-"$ROS_DISTRO"-pr2-description \
 ros-"$ROS_DISTRO"-soem \
 ros-"$ROS_DISTRO"-socketcan-interface \
-libuv-dev
-libcap-dev
-binutils-dev
+libuv-dev \
+libcap-dev \
+binutils-dev \
 libmagick++-dev
 ```
