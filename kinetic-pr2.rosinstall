@@ -12,7 +12,7 @@
     version: kinetic-devel
 - git:
     local-name: pr2/pr2_simulator
-    uri: http://github.com/PR2/pr2_simulator.git
+    uri: https://github.com/PR2/pr2_simulator.git
     version: kinetic-devel
 - git:
     local-name: pr2/pr2_common
