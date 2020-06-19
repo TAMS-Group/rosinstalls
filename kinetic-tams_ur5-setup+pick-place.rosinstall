@@ -36,3 +36,7 @@
     local-name: upstream/apriltag_lib
     uri: https://github.com/AprilRobotics/apriltag
     version: master
+- git:
+    local-name: tams/tams_camera_config
+    uri: git@github.com:TAMS-Group/tams_camera_config.git
+    version: master
