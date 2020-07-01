@@ -1,38 +1,44 @@
 - git:
+    local-name: bio_ik
+    uri: https://github.com/TAMS-Group/bio_ik
+- git:
+    local-name: pr2/pr2_apps
+    uri: https://github.com/PR2/pr2_apps.git
+- git:
+    local-name: pr2/pr2_common
+    uri: https://github.com/TAMS-Group/pr2_common
+    version: melodic-devel-tams
+- git:
+    local-name: pr2/pr2_ethercat_drivers
+    uri: https://github.com/PR2/pr2_ethercat_drivers
+- git:
     local-name: pr2/pr2_mechanism
     uri: https://github.com/TAMS-Group/pr2_mechanism.git
     version: melodic-devel-tams
 - git:
-    local-name: pr2/pr2_mechanism_msgs
-    uri: https://github.com/PR2/pr2_mechanism_msgs.git
-    version: master
+    local-name: pr2/pr2_motors_analyzer
+    uri: https://github.com/TAMS-Group/pr2_motors_analyzer
 - git:
-    local-name: pr2/pr2_controllers
-    uri: https://github.com/PR2/pr2_controllers.git
+    local-name: pr2/pr2_navigation
+    uri: https://github.com/TAMS-Group/pr2_navigation.git
+    version: kinetic-devel-tams
+- git:
+    local-name: pr2/pr2_power_drivers
+    uri: https://github.com/PR2/pr2_power_drivers.git
+- git:
+    local-name: pr2/pr2_robot
+    uri: https://github.com/PR2/pr2_robot.git
+- git:
+    local-name: shadow/common_resources
+    uri: https://github.com/shadow-robot/common_resources
     version: melodic-devel
 - git:
-    local-name: pr2/pr2_simulator
-    uri: https://github.com/PR2/pr2_simulator.git
-    version: kinetic-devel
-- git:
-    local-name: pr2/pr2_common
-    uri: https://github.com/TAMS-Group/pr2_common.git
-    version: melodic-devel-tams
-- git:
-    local-name: shadow/ethercat_grant
-    uri: https://github.com/shadow-robot/ethercat_grant.git
+    local-name: shadow/ros_control_robot
+    uri: https://github.com/shadow-robot/ros_control_robot
     version: melodic-devel
 - git:
     local-name: shadow/ros_ethercat
     uri: https://github.com/shadow-robot/ros_ethercat.git
-    version: melodic-devel
-- git:
-    local-name: shadow/ros_ethercat_eml
-    uri: https://github.com/shadow-robot/ros_ethercat_eml.git
-    version: melodic-devel
-- git:
-    local-name: shadow/sr_utils
-    uri: https://github.com/shadow-robot/sr_utils.git
     version: melodic-devel
 - git:
     local-name: shadow/sr-config
@@ -55,10 +61,6 @@
     uri: https://github.com/shadow-robot/sr_common.git
     version: melodic-devel
 - git:
-    local-name: shadow/common_resources
-    uri: https://github.com/shadow-robot/common_resources.git
-    version: melodic-devel
-- git:
     local-name: shadow/sr_core
     uri: https://github.com/shadow-robot/sr_core.git
     version: melodic-devel
@@ -71,10 +73,22 @@
     uri: https://github.com/shadow-robot/sr_tools.git
     version: melodic-devel
 - git:
-    local-name: tams_pr2
-    uri: gogs@git.crossmodal-learning.org:TAMS/tams_pr2.git
-    version: kinetic-devel
+    local-name: shadow/sr_utils
+    uri: https://github.com/shadow-robot/sr_utils.git
+    version: melodic-devel
 - git:
-    local-name: tams_motorhand
-    uri: gogs@git.crossmodal-learning.org:TAMS/tams_motorhand.git
-    version: master
+    local-name: shadow/sr_visualization_common
+    uri: https://github.com/shadow-robot/sr_visualization_common.git
+    version: melodic-devel
+- git:
+    local-name: tams/tams_biotac
+    uri: https://git.crossmodal-learning.org/yannick.jonetzko/tams_biotac.git
+- git:
+    local-name: tams/tams_maps
+    uri: git@git.crossmodal-learning.org:TAMS/tams_maps.git
+- git:
+    local-name: tams/tams_motorhand
+    uri: git@git.crossmodal-learning.org:TAMS/tams_motorhand.git
+- git:
+    local-name: tams/tams_pr2
+    uri: git@git.crossmodal-learning.org:TAMS/tams_pr2.git
