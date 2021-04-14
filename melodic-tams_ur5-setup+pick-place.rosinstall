@@ -14,16 +14,13 @@
     local-name: tams/robotiq_s_model_action_server
     uri: https://github.com/TAMS-Group/robotiq_s_model_action_server.git
 - git:
-    local-name: upstream/ur_modern_driver
-    uri: https://github.com/v4hn/ur_modern_driver.git
-    version: kinetic_ur_5_4
-- git:
-    local-name: upstream/industrial_core
-    uri: https://github.com/ros-industrial/industrial_core.git
+    local-name: upstream/Universal_Robots_ROS_Driver
+    uri: https://github.com/UniversalRobots/Universal_Robots_ROS_Driver.git
+    version: master
 - git:
     local-name: upstream/universal_robot
-    uri: https://github.com/ros-industrial/universal_robot.git
-    version: kinetic-devel
+    uri: https://github.com/fmauch/universal_robot.git
+    version: calibration_devel
 - git:
     local-name: upstream/robotiq
     uri: https://github.com/TAMS-Group/robotiq.git
@@ -39,4 +36,8 @@
 - git:
     local-name: tams/tams_camera_config
     uri: https://github.com/TAMS-Group/tams_camera_config.git
+    version: master
+ - git:
+    local-name: upstream/iai_kinect2
+    uri: https://github.com/code-iai/iai_kinect2.git
     version: master
