@@ -90,12 +90,12 @@
 - git:
     local-name: shadow/ros_ethercat
     uri: https://github.com/shadow-robot/ros_ethercat.git
-    version: melodic-devel
+    version: noetic-devel
 
 - git:
     local-name: shadow/ros_ethercat_eml
     uri: https://github.com/shadow-robot/ros_ethercat_eml.git
-    version: melodic-devel
+    version: noetic-devel
 
 - git:
     local-name: tams/tams_camera_config
