@@ -26,6 +26,7 @@ ros-"$ROS_DISTRO"-gazebo-ros-control \
 ros-"$ROS_DISTRO"-pr2-common \
 ros-"$ROS_DISTRO"-pr2-msgs \
 ros-"$ROS_DISTRO"-pr2-description \
+ros-"$ROS_DISTRO"-ur-msgs \
 ros-"$ROS_DISTRO"-soem \
 ros-"$ROS_DISTRO"-socketcan-interface \
 libuv-dev \
