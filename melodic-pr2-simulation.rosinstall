@@ -69,7 +69,7 @@
 - git:
     local-name: tams/tams_motorhand
     uri: git@git.crossmodal-learning.org:TAMS/tams_motorhand.git
-    version: master
+    version: melodic-devel
 - git:
     local-name: tams/tams_pr2
     uri: git@git.crossmodal-learning.org:yannick.jonetzko/tams_pr2.git
