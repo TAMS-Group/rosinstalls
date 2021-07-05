@@ -3,14 +3,6 @@
     uri: https://github.com/TAMS-Group/bio_ik.git
     version: master
 - git:
-    local-name: moveit/moveit
-    uri: https://github.com/ros-planning/moveit.git
-    version: master
-- git:
-    local-name: moveit/moveit_msgs
-    uri: https://github.com/ros-planning/moveit_msgs.git
-    version: master
-- git:
     local-name: pr2/pr2_common
     uri: https://github.com/TAMS-Group/pr2_common.git
     version: melodic-devel-tams
