@@ -1,4 +1,4 @@
-# rosinstalls
+# TAMS rosinstalls
 
 This repository provides a list of rosinstall files for different setups.
 To compile the listed packages in this file, some packages might be required to be installed:
@@ -12,7 +12,8 @@ source /opt/ros/kinetic/setup.bash
 This will load the `${ROS_DISTRO}` variable, needed for the next step.
 
 ```
-sudo apt install ros-"$ROS_DISTRO"-moveit-visual-tools \
+sudo apt install \
+ros-"$ROS_DISTRO"-moveit-visual-tools \
 ros-"$ROS_DISTRO"-convex-decomposition \
 ros-"$ROS_DISTRO"-ivcon \
 ros-"$ROS_DISTRO"-moveit \
@@ -29,6 +30,10 @@ ros-"$ROS_DISTRO"-pr2-description \
 ros-"$ROS_DISTRO"-ur-msgs \
 ros-"$ROS_DISTRO"-soem \
 ros-"$ROS_DISTRO"-socketcan-interface \
+ros-"$ROS_DISTRO"-scaled-joint-trajectory-controller \
+ros-"$ROS_DISTRO"-speed-scaling-interface \
+ros-"$ROS_DISTRO"-speed-scaling-state-controller \
+ros-"$ROS_DISTRO"-pass-through-controllers \
 libuv-dev \
 libcap-dev \
 binutils-dev \
