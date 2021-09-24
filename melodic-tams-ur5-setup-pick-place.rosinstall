@@ -1,7 +1,4 @@
 - git:
-    local-name: tams/tams_ur5
-    uri: https://github.com/TAMS-Group/tams_ur5
-- git:
     local-name: tams/tams_ur5_setup
     uri: https://github.com/TAMS-Group/tams_ur5_setup
 - git:
