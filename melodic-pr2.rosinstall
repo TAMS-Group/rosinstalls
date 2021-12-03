@@ -51,6 +51,14 @@
     uri: https://github.com/TAMS-Group/pr2_robot
     version: kinetic-devel-tams
 - git:
+    local-name: pr2/rqt_pr2_dashboard
+    uri: https://github.com/TAMS-Group/rqt_pr2_dashboard
+    version: kinetic-devel-tams
+- git:
+    local-name: shadow/Universal_Robots_ROS_Driver
+    uri: https://github.com/TAMS-Group/Universal_Robots_ROS_Driver.git
+    version: controller_stopper_only
+- git:
     local-name: shadow/common_resources
     uri: https://github.com/shadow-robot/common_resources.git
     version: melodic-devel
