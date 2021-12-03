@@ -1,16 +1,35 @@
 - git:
     local-name: bio_ik
-    uri: https://github.com/TAMS-Group/bio_ik
+    uri: https://github.com/TAMS-Group/bio_ik.git
+    version: master
+- git:
+    local-name: demos/count_demo
+    uri: https://gogs.crossmodal-learning.org/TAMS/count_demo
+    version: master
+- git:
+    local-name: demos/vocus2_ros
+    uri: https://git.crossmodal-learning.org/TAMS/vocus2_ros.git
+    version: master
 - git:
     local-name: pr2/pr2_apps
     uri: https://github.com/PR2/pr2_apps.git
+    version: melodic-devel
 - git:
     local-name: pr2/pr2_common
-    uri: https://github.com/TAMS-Group/pr2_common
+    uri: https://github.com/TAMS-Group/pr2_common.git
     version: melodic-devel-tams
 - git:
+    local-name: pr2/pr2_controllers
+    uri: https://github.com/PR2/pr2_controllers
+    version: melodic-devel
+- git:
     local-name: pr2/pr2_ethercat_drivers
-    uri: https://github.com/PR2/pr2_ethercat_drivers
+    uri: https://github.com/TAMS-Group/pr2_ethercat_drivers.git
+    version: kinetic-devel-tams
+- git:
+    local-name: pr2/pr2_gripper_sensor
+    uri: https://github.com/TAMS-Group/pr2_gripper_sensor
+    version: hydro-devel-tams
 - git:
     local-name: pr2/pr2_mechanism
     uri: https://github.com/TAMS-Group/pr2_mechanism.git
@@ -18,23 +37,26 @@
 - git:
     local-name: pr2/pr2_motors_analyzer
     uri: https://github.com/TAMS-Group/pr2_motors_analyzer
+    version: master
 - git:
     local-name: pr2/pr2_navigation
     uri: https://github.com/TAMS-Group/pr2_navigation.git
     version: kinetic-devel-tams
 - git:
     local-name: pr2/pr2_power_drivers
-    uri: https://github.com/PR2/pr2_power_drivers.git
+    uri: https://github.com/TAMS-Group/pr2_power_drivers.git
+    version: kinetic-devel-tams
 - git:
     local-name: pr2/pr2_robot
-    uri: https://github.com/PR2/pr2_robot.git
+    uri: https://github.com/TAMS-Group/pr2_robot
+    version: kinetic-devel-tams
 - git:
     local-name: shadow/common_resources
-    uri: https://github.com/shadow-robot/common_resources
+    uri: https://github.com/shadow-robot/common_resources.git
     version: melodic-devel
 - git:
     local-name: shadow/ros_control_robot
-    uri: https://github.com/shadow-robot/ros_control_robot
+    uri: https://github.com/shadow-robot/ros_control_robot.git
     version: melodic-devel
 - git:
     local-name: shadow/ros_ethercat
@@ -42,8 +64,8 @@
     version: melodic-devel
 - git:
     local-name: shadow/sr-config
-    uri: https://github.com/shadow-robot/sr-config.git
-    version: shadowrobot_111031_kinetic
+    uri: https://github.com/TAMS-Group/sr-config
+    version: shadowrobot_111031_kinetic-tams
 - git:
     local-name: shadow/sr-ros-interface
     uri: https://github.com/shadow-robot/sr-ros-interface.git
@@ -66,8 +88,8 @@
     version: melodic-devel
 - git:
     local-name: shadow/sr_interface
-    uri: https://github.com/shadow-robot/sr_interface.git
-    version: melodic-devel
+    uri: https://github.com/TAMS-Group/sr_interface
+    version: melodic-devel-tams-pr2
 - git:
     local-name: shadow/sr_tools
     uri: https://github.com/shadow-robot/sr_tools.git
@@ -81,15 +103,34 @@
     uri: https://github.com/shadow-robot/sr_visualization_common.git
     version: melodic-devel
 - git:
+    local-name: tams/move_base_interpolate
+    uri: https://github.com/TAMS-Group/move_base_interpolate
+    version: master
+- git:
+    local-name: tams/pr2_caster_test
+    uri: https://github.com/TAMS-Group/pr2_caster_test
+    version: master
+- git:
     local-name: tams/tams_biotac
     uri: https://git.crossmodal-learning.org/yannick.jonetzko/tams_biotac.git
+    version: master
 - git:
     local-name: tams/tams_maps
-    uri: git@git.crossmodal-learning.org:TAMS/tams_maps.git
+    uri: gogs@git.crossmodal-learning.org:TAMS/tams_maps.git
+    version: master
 - git:
     local-name: tams/tams_motorhand
-    uri: git@git.crossmodal-learning.org:TAMS/tams_motorhand.git
+    uri: https://git.crossmodal-learning.org/TAMS/tams_motorhand.git
     version: melodic-devel
 - git:
     local-name: tams/tams_pr2
     uri: git@git.crossmodal-learning.org:TAMS/tams_pr2.git
+    version: melodic-devel
+- git:
+    local-name: tams/trixi_look
+    uri: https://github.com/TAMS-GROUP/trixi_look
+    version: master
+- git:
+    local-name: upstream/gazr
+    uri: https://github.com/TAMS-Group/gazr
+    version: master-tams
