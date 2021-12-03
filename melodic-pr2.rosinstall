@@ -7,6 +7,10 @@
     uri: git@git.crossmodal-learning.org:TAMS/count_demo
     version: master
 - git:
+    local-name: demos/gazr
+    uri: https://github.com/TAMS-Group/gazr
+    version: master-tams
+- git:
     local-name: demos/vocus2_ros
     uri: git@git.crossmodal-learning.org:TAMS/vocus2_ros.git
     version: master
@@ -138,7 +142,3 @@
     local-name: tams/trixi_look
     uri: https://github.com/TAMS-GROUP/trixi_look
     version: master
-- git:
-    local-name: upstream/gazr
-    uri: https://github.com/TAMS-Group/gazr
-    version: master-tams
