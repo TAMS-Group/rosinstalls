@@ -4,11 +4,11 @@
     version: master
 - git:
     local-name: demos/count_demo
-    uri: https://gogs.crossmodal-learning.org/TAMS/count_demo
+    uri: git@git.crossmodal-learning.org:TAMS/count_demo
     version: master
 - git:
     local-name: demos/vocus2_ros
-    uri: https://git.crossmodal-learning.org/TAMS/vocus2_ros.git
+    uri: git@git.crossmodal-learning.org:TAMS/vocus2_ros.git
     version: master
 - git:
     local-name: pr2/pr2_apps
@@ -116,11 +116,11 @@
     version: master
 - git:
     local-name: tams/tams_maps
-    uri: gogs@git.crossmodal-learning.org:TAMS/tams_maps.git
+    uri: git@git.crossmodal-learning.org:TAMS/tams_maps.git
     version: master
 - git:
     local-name: tams/tams_motorhand
-    uri: https://git.crossmodal-learning.org/TAMS/tams_motorhand.git
+    uri: git@git.crossmodal-learning.org:TAMS/tams_motorhand.git
     version: melodic-devel
 - git:
     local-name: tams/tams_pr2
