@@ -112,7 +112,7 @@
     version: master
 - git:
     local-name: tams/tams_biotac
-    uri: https://git.crossmodal-learning.org/yannick.jonetzko/tams_biotac.git
+    uri: git@git.crossmodal-learning.org:TAMS/tams_biotac.git
     version: master
 - git:
     local-name: tams/tams_maps
