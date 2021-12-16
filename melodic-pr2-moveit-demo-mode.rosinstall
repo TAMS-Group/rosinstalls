@@ -1,0 +1,23 @@
+# Provides the minimum repositories needed to be able to run
+# `roslaunch tams_pr2_moveit_config demo.launch`
+- git:
+    local-name: pr2/pr2_common
+    uri: https://github.com/TAMS-Group/pr2_common.git
+    version: melodic-devel-tams
+- git:
+    local-name: shadow/sr_common
+    uri: https://github.com/shadow-robot/sr_common.git
+    version: melodic-devel
+- git:
+    local-name: tams/tams_motorhand
+    uri: git@git.crossmodal-learning.org:TAMS/tams_motorhand.git
+    version: melodic-devel
+- git:
+    local-name: tams/tams_pr2
+    uri: git@git.crossmodal-learning.org:TAMS/tams_pr2.git
+    version: melodic-devel
+## If you compiled moveit's master branch in your workspace, add this repository
+#- git:
+#    local-name: tams/tams_pr2.master
+#    uri: git@git.crossmodal-learning.org:TAMS/tams_pr2.git
+#    version: noetic-devel-moveit-only
