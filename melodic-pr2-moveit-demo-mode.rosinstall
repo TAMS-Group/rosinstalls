@@ -10,12 +10,17 @@
     version: melodic-devel
 - git:
     local-name: tams/tams_motorhand
-    uri: git@git.crossmodal-learning.org:TAMS/tams_motorhand.git
+    uri: https://github.com/TAMS-Group/tams_motorhand.git
+#    uri: git@git.crossmodal-learning.org:TAMS/tams_motorhand.git
     version: melodic-devel
 - git:
     local-name: tams/tams_pr2
-    uri: git@git.crossmodal-learning.org:TAMS/tams_pr2.git
+    uri: https://github.com/TAMS-Group/tams_pr2.git
+#    uri: git@git.crossmodal-learning.org:TAMS/tams_pr2.git
     version: melodic-devel
+- git:
+    local-name: tams/bio_ik
+    uri: https://github.com/TAMS-Group/bio_ik
 ## If you compiled moveit's master branch in your workspace, add this repository
 #- git:
 #    local-name: tams/tams_pr2.master
