@@ -66,7 +66,9 @@
 - git:
     local-name: upstream/shadow/sr_interface
     uri: https://github.com/shadow-robot/sr_interface.git
-    version: noetic-devel
+    version: melodic-devel
+# noetic-devel has a breaking update for hand controllers
+# https://github.com/shadow-robot/sr_interface/pull/677
 
 - git:
     local-name: upstream/shadow/sr_tools
