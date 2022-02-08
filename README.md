@@ -14,6 +14,7 @@ This will load the `${ROS_DISTRO}` variable, needed for the next step.
 ```
 sudo apt install \
 ros-"$ROS_DISTRO"-moveit-visual-tools \
+ros-"$ROS_DISTRO"-cartesian-interface \
 ros-"$ROS_DISTRO"-cartesian-control-msgs \
 ros-"$ROS_DISTRO"-convex-decomposition \
 ros-"$ROS_DISTRO"-ivcon \
