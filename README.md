@@ -3,8 +3,9 @@
 This repository provides a list of rosinstall files for different setups.
 To compile the listed packages in this file, some packages might be required to be installed:
 
-Choose one of the two:
+Choose one of the three:
 ```
+source /opt/ros/noetic/setup.bash
 source /opt/ros/melodic/setup.bash
 source /opt/ros/kinetic/setup.bash
 ```
