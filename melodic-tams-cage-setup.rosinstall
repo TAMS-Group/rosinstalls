@@ -39,7 +39,7 @@
     version: noetic-devel
 
 - git:
-    local-name: upstream/shadow/shadow_robot
+    local-name: upstream/shadow/sr-ros-interface
     uri: https://github.com/shadow-robot/sr-ros-interface.git
     version: noetic-devel
 
@@ -54,7 +54,7 @@
     version: noetic-devel
 
 - git:
-    local-name: upstream/shadow/sr_config
+    local-name: upstream/shadow/sr-config
     uri: https://github.com/TAMS-Group/sr-config.git
     version: shadowrobot_200501-in-cage
 
