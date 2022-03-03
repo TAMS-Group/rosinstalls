@@ -1,0 +1,10 @@
+- git:
+    local-name: iai_kinect2
+    uri: https://github.com/code-iai/iai_kinect2.git
+- git:
+    local-name: tams_pr2_neopixel
+    uri: https://git.crossmodal-learning.org/norman.hendrich/tams_pr2_neopixel.git
+# should be installed on the system if possible
+- git:
+    local-name: timed_roslaunch
+    uri: https://github.com/MoriKen254/timed_roslaunch
