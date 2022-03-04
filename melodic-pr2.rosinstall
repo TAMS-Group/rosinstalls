@@ -119,6 +119,9 @@
     uri: https://github.com/TAMS-Group/move_base_interpolate
     version: master
 - git:
+    local-name: tams/moveit_by_name
+    uri: https://git.crossmodal-learning.org/TAMS/moveit_by_name
+- git:
     local-name: tams/pr2_caster_test
     uri: https://github.com/TAMS-Group/pr2_caster_test
     version: master
