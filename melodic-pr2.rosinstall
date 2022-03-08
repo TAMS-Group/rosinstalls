@@ -1,8 +1,4 @@
 - git:
-    local-name: bio_ik
-    uri: https://github.com/TAMS-Group/bio_ik.git
-    version: master
-- git:
     local-name: demos/count_demo
     uri: git@git.crossmodal-learning.org:TAMS/count_demo
     version: master
@@ -14,6 +10,16 @@
     local-name: demos/vocus2_ros
     uri: git@git.crossmodal-learning.org:TAMS/vocus2_ros.git
     version: master
+- git:
+    local-name: moveit/bio_ik
+    uri: https://github.com/TAMS-Group/bio_ik.git
+    version: master
+- git:
+    local-name: moveit/moveit_by_name
+    uri: https://git.crossmodal-learning.org/TAMS/moveit_by_name
+- git:
+    local-name: moveit/moveit_monitoring
+    uri: https://github.com/v4hn/moveit_monitoring
 - git:
     local-name: pr2/pr2_apps
     uri: https://github.com/PR2/pr2_apps.git
@@ -115,12 +121,13 @@
     uri: https://github.com/shadow-robot/sr_visualization_common.git
     version: melodic-devel
 - git:
+    local-name: system/joystick_drivers
+    uri: https://github.com/TAMS-Group/joystick_drivers
+    version: tams-main
+- git:
     local-name: tams/move_base_interpolate
     uri: https://github.com/TAMS-Group/move_base_interpolate
     version: master
-- git:
-    local-name: tams/moveit_by_name
-    uri: https://git.crossmodal-learning.org/TAMS/moveit_by_name
 - git:
     local-name: tams/pr2_caster_test
     uri: https://github.com/TAMS-Group/pr2_caster_test
