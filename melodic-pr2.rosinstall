@@ -125,6 +125,10 @@
     uri: https://github.com/TAMS-Group/joystick_drivers
     version: tams-main
 - git:
+    local-name: system/rqt_robot_monitor
+    uri: https://github.com/TAMS-Group/rqt_robot_monitor
+    version: pr-ros1-improve-error-and-warning-lists
+- git:
     local-name: tams/move_base_interpolate
     uri: https://github.com/TAMS-Group/move_base_interpolate
     version: master
