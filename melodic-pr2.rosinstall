@@ -90,8 +90,8 @@
     version: melodic-devel
 - git:
     local-name: shadow/sr-ros-interface-ethercat
-    uri: https://github.com/shadow-robot/sr-ros-interface-ethercat.git
-    version: melodic-devel
+    uri: https://github.com/TAMS-Group/sr-ros-interface-ethercat.git
+    version: melodic-devel-tams-pr2
 - git:
     local-name: shadow/sr-visualization
     uri: https://github.com/shadow-robot/sr-visualization.git
