@@ -20,7 +20,7 @@
 
 - git:
     local-name: tams/tams_motorhand
-    uri: git@git.crossmodal-learning.org:TAMS/tams_motorhand.git
+    uri: git@git.crossmodal-learning.org:hongzhuo.liang/tams_motorhand.git
     version: melodic-devel
 
 - git:
