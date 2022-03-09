@@ -44,6 +44,7 @@ libcap-dev \
 binutils-dev \
 libmagick++-dev
 ```
-- `cd` into your workspace's `src` folder
+- `cd` into your workspace
 - download the `rosinstall` file you nedd
-- use `vcs import < XXX.rosinstall` for fast download packages.
+- Either use [`vcstool`](https://github.com/dirk-thomas/vcstool): `vcs import src/ < XXX.rosinstall`
+- or use `wstool`: store the file as `src/.rosinstall` and run `wstool update src/`
