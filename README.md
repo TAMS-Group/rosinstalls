@@ -1,18 +1,18 @@
 # TAMS rosinstalls
 
-This repository provides a list of rosinstall files for different setups.
+- This repository provides a list of rosinstall files for different setups.
 To compile the listed packages in this file, some packages might be required to be installed:
 
-Choose one of the three:
-```
+- Choose one of the three:
+```bash
 source /opt/ros/noetic/setup.bash
 source /opt/ros/melodic/setup.bash
 source /opt/ros/kinetic/setup.bash
 ```
 
-This will load the `${ROS_DISTRO}` variable, needed for the next step.
+- This will load the `${ROS_DISTRO}` variable, needed for the next step.
 
-```
+```bash
 sudo apt install \
 ros-"$ROS_DISTRO"-moveit-visual-tools \
 ros-"$ROS_DISTRO"-cartesian-interface \
@@ -44,3 +44,6 @@ libcap-dev \
 binutils-dev \
 libmagick++-dev
 ```
+- `cd` into your workspace's `src` folder
+- download the `rosinstall` file you nedd
+- use `vcs import < XXX.rosinstall` for fast download packages.
