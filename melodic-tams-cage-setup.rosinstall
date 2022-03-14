@@ -54,11 +54,6 @@
     version: noetic-devel
 
 - git:
-    local-name: upstream/shadow/sr-config
-    uri: https://github.com/TAMS-Group/sr-config.git
-    version: shadowrobot_200501-in-cage
-
-- git:
     local-name: upstream/shadow/sr_core
     uri: https://github.com/shadow-robot/sr_core.git
     version: noetic-devel
@@ -93,7 +88,10 @@
     local-name: upstream/shadow/ros_ethercat
     uri: https://github.com/shadow-robot/ros_ethercat.git
     version: noetic-devel
-
+- git:
+    local-name: upstream/shadow/sr_hand_config
+    uri: https://github.com/TAMS-Group/sr_hand_config.git
+    version: master
 - git:
     local-name: upstream/shadow/ros_ethercat_eml
     uri: https://github.com/shadow-robot/ros_ethercat_eml.git
