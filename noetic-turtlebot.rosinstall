@@ -1,0 +1,38 @@
+- git:
+    local-name: ar_track_alvar
+    uri: https://github.com/pmusau17/ar_track_alvar.git
+    branch: noetic-devel
+- git:
+    local-name: kobuki
+    uri: https://github.com/yujinrobot/kobuki.git
+- git:
+    local-name: kobuki_desktop
+    uri: https://github.com/yujinrobot/kobuki_desktop.git
+- git:
+    local-name: kobuki_msgs
+    uri: https://github.com/yujinrobot/kobuki_msgs.git
+- git:
+    local-name: turtlebot
+    uri: https://github.com/turtlebot/turtlebot.git
+- git:
+    local-name: turtlebot_apps
+    uri: https://github.com/turtlebot/turtlebot_apps.git
+- git:
+    local-name: turtlebot_msgs
+    uri: https://github.com/turtlebot/turtlebot_msgs.git
+- git:
+    local-name: turtlebot_simulator
+    uri: https://github.com/turtlebot/turtlebot_simulator.git
+- git:
+    local-name: yocs_msgs
+    uri: https://github.com/yujinrobot/yocs_msgs.git
+- git:
+    local-name: yujin_ocs
+    uri: https://github.com/mikepurvis/yujin_ocs.git
+    branch: patch-1
+# sudo apt install ros-noetic-kobuki-core
+# sudo apt install ros-noetic-ecl-core
+# sudo apt install pyqt5-dev-tools
+# sudo apt install ros-noetic-base-local-planner
+# sudo apt install ros-noetic-move-base-msgs
+
