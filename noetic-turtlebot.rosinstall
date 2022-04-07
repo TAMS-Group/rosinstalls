@@ -1,7 +1,7 @@
 - git:
     local-name: ar_track_alvar
     uri: https://github.com/pmusau17/ar_track_alvar.git
-    branch: noetic-devel
+    version: noetic-devel
 - git:
     local-name: kobuki
     uri: https://github.com/yujinrobot/kobuki.git
@@ -29,10 +29,5 @@
 - git:
     local-name: yujin_ocs
     uri: https://github.com/mikepurvis/yujin_ocs.git
-    branch: patch-1
-# sudo apt install ros-noetic-kobuki-core
-# sudo apt install ros-noetic-ecl-core
-# sudo apt install pyqt5-dev-tools
-# sudo apt install ros-noetic-base-local-planner
-# sudo apt install ros-noetic-move-base-msgs
-
+    version: patch-1
+# sudo apt install ros-noetic-kobuki-core ros-noetic-ecl-core pyqt5-dev-tools ros-noetic-base-local-planner ros-noetic-move-base-msgs
