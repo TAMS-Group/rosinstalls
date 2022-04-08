@@ -30,4 +30,4 @@
     local-name: yujin_ocs
     uri: https://github.com/mikepurvis/yujin_ocs.git
     version: patch-1
-# sudo apt install ros-noetic-kobuki-core ros-noetic-ecl-core pyqt5-dev-tools ros-noetic-base-local-planner ros-noetic-move-base-msgs
+# sudo apt install ros-noetic-kobuki-core ros-noetic-ecl-core pyqt5-dev-tools ros-noetic-base-local-planner ros-noetic-move-base-msgs libsensors4-dev
