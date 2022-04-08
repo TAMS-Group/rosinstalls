@@ -12,6 +12,15 @@
     local-name: kobuki_msgs
     uri: https://github.com/yujinrobot/kobuki_msgs.git
 - git:
+    local-name: linux_peripheral_interfaces
+    uri: https://github.com/ros-drivers/linux_peripheral_interfaces.git
+- git:
+    local-name: openni_camera
+    uri: https://github.com/ros-drivers/openni_camera.git
+- git:
+    local-name: tams_turtlebot
+    uri: git@github.com:TAMS-Group/tams_turtlebot.git
+- git:
     local-name: turtlebot
     uri: https://github.com/turtlebot/turtlebot.git
 - git:
