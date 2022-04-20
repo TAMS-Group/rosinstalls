@@ -8,3 +8,6 @@
 - git:
     local-name: timed_roslaunch
     uri: https://github.com/MoriKen254/timed_roslaunch
+- git:
+    local-name: tams_pr2_kinect2
+    uri: https://git.crossmodal-learning.org/TAMS/tams_pr2_kinect2.git
