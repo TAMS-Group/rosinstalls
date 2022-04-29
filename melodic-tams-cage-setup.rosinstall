@@ -20,8 +20,8 @@
 
 - git:
     local-name: tams/tams_motorhand
-    uri: git@git.crossmodal-learning.org:hongzhuo.liang/tams_motorhand.git
-    version: melodic-devel
+    uri: https://github.com/TAMS-Group/tams_motorhand.git
+    version: noetic-devel
 
 - git:
     local-name: tams/bio_ik
