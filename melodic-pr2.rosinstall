@@ -153,6 +153,6 @@
     uri: git@git.crossmodal-learning.org:TAMS/tams_pr2.git
     version: melodic-devel
 - git:
-    local-name: tams/trixi_look
-    uri: https://github.com/TAMS-GROUP/trixi_look
+    local-name: tams/tams_pr2_look
+    uri: https://github.com/TAMS-GROUP/tams_pr2_look
     version: master
