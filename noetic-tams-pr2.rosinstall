@@ -16,7 +16,7 @@
     version: master
 - git:
     local-name: moveit/moveit_by_name
-    uri: https://git.crossmodal-learning.org/TAMS/moveit_by_name
+    uri: git@git.crossmodal-learning.org:TAMS/moveit_by_name
     version: master
 - git:
     local-name: moveit/moveit_monitoring
@@ -29,7 +29,7 @@
 - git:
     local-name: pr2/pr2_common
     uri: https://github.com/TAMS-Group/pr2_common.git
-    version: melodic-devel-tams
+    version: noetic-devel-tams
 - git:
     local-name: pr2/pr2_controllers
     uri: https://github.com/PR2/pr2_controllers
@@ -61,7 +61,7 @@
 - git:
     local-name: pr2/pr2_robot
     uri: https://github.com/TAMS-Group/pr2_robot
-    version: kinetic-devel-tams
+    version: noetic-devel-tams
 - git:
     local-name: pr2/rqt_pr2_dashboard
     uri: https://github.com/PR2/rqt_pr2_dashboard
@@ -134,6 +134,18 @@
     local-name: system/joystick_drivers
     uri: https://github.com/TAMS-Group/joystick_drivers
     version: tams-main
+- git:
+    local-name: system/timed_roslaunch
+    uri: https://github.com/MoriKen254/timed_roslaunch
+    version: melodic-devel
+- git:
+    local-name: system/wge100_driver
+    uri: https://github.com/TAMS-Group/wge100_driver
+    version: hydro-devel
+- git:
+    local-name: system/wifi_ddwrt
+    uri: https://github.com/TAMS-Group/wifi_ddwrt
+    version: noetic-devel
 - git:
     local-name: tams/move_base_interpolate
     uri: https://github.com/TAMS-Group/move_base_interpolate
