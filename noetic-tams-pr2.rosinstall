@@ -139,6 +139,10 @@
     uri: https://github.com/MoriKen254/timed_roslaunch
     version: melodic-devel
 - git:
+    local-name: system/warehouse_ros_sqlite
+    uri: https://github.com/ros-planning/warehouse_ros_sqlite
+    version: master
+- git:
     local-name: system/wge100_driver
     uri: https://github.com/TAMS-Group/wge100_driver
     version: hydro-devel
