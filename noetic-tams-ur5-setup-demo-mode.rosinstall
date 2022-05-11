@@ -9,4 +9,4 @@
 - git:
     local-name: upstream/robotiq
     uri: https://github.com/TAMS-Group/robotiq.git
-    version: kinetic-devel_bluetooth-rebase
+    version: noetic-devel
