@@ -178,3 +178,7 @@
     local-name: tams/tams_pr2_look
     uri: https://github.com/TAMS-Group/tams_pr2_look
     version: master
+- git:
+    local-name: tams/tams_pr2_neopixel
+    uri: git@git.crossmodal-learning.org:norman.hendrich/tams_pr2_neopixel.git
+    version: master
