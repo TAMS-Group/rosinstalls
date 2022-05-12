@@ -8,7 +8,7 @@
     version: master
 - git:
     local-name: tams_pr2_neopixel
-    uri: https://git.crossmodal-learning.org/norman.hendrich/tams_pr2_neopixel.git
+    uri: git@git.crossmodal-learning.org:norman.hendrich/tams_pr2_neopixel.git
     version: master
 - git:
     local-name: timed_roslaunch
