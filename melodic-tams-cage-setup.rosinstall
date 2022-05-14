@@ -47,6 +47,8 @@
     local-name: upstream/shadow/sr-ros-interface-ethercat
     uri: https://github.com/TAMS-Group/sr-ros-interface-ethercat.git
     version: noetic-devel-on-melodic
+# temporary solution for working noetic-devel code in melodic, will track noetic-devel when our server
+# update to ubuntu 20.04
 
 - git:
     local-name: upstream/shadow/sr_common
@@ -61,8 +63,9 @@
 - git:
     local-name: upstream/shadow/sr_interface
     uri: https://github.com/shadow-robot/sr_interface.git
-    version: melodic-devel
-# noetic-devel has a breaking update for hand controllers
+    version: noetic-devel
+# be careful that noetic-devel of sr_interface has a breaking update for hand controllers
+# remember to update moveit setup to also separate the finger move group and wrist move group
 # https://github.com/shadow-robot/sr_interface/pull/677
 
 - git:
