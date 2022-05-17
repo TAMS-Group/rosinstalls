@@ -65,7 +65,7 @@
     uri: https://github.com/shadow-robot/sr_interface.git
     version: noetic-devel
 # be careful that noetic-devel of sr_interface has a breaking update for hand controllers
-# remember to update moveit setup to also separate the finger move group and wrist move group
+# remember to update moveit controllers to separate the finger move group and wrist controller
 # https://github.com/shadow-robot/sr_interface/pull/677
 
 - git:
