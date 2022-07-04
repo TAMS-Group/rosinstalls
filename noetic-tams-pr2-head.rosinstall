@@ -1,11 +1,21 @@
 - git:
-    local-name: iai_kinect2
-    uri: https://github.com/ros-o/iai_kinect2
-    version: noetic-devel
+    local-name: Azure_Kinect_ROS_Driver
+    uri: https://github.com/microsoft/Azure_Kinect_ROS_Driver.git
 - git:
-    local-name: tams_pr2_kinect2
-    uri: git@git.crossmodal-learning.org:TAMS/tams_pr2_kinect2.git
-    version: master
+    local-name: gazr
+    uri: https://github.com/TAMS-Group/gazr
+    version: master-tams
+#- git:
+#    local-name: iai_kinect2
+#    uri: https://github.com/ros-o/iai_kinect2
+#    version: noetic-devel
+- git:
+    local-name: tams_pr2_azure_kinect
+    uri: https://github.com/TAMS-Group/tams_pr2_azure_kinect.git
+#- git:
+#    local-name: tams_pr2_kinect2
+#    uri: git@git.crossmodal-learning.org:TAMS/tams_pr2_kinect2.git
+#    version: master
 - git:
     local-name: tams_pr2_neopixel
     uri: git@git.crossmodal-learning.org:norman.hendrich/tams_pr2_neopixel.git
