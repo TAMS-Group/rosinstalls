@@ -19,7 +19,7 @@
     uri: https://github.com/ros-drivers/openni_camera.git
 - git:
     local-name: tams_turtlebot
-    uri: git@github.com:TAMS-Group/tams_turtlebot.git
+    uri: https://github.com/TAMS-Group/tams_turtlebot.git
 - git:
     local-name: turtlebot
     uri: https://github.com/turtlebot/turtlebot.git
