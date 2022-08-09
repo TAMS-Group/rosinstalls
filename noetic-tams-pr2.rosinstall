@@ -135,6 +135,10 @@
     uri: https://github.com/TAMS-Group/joystick_drivers
     version: tams-main
 - git:
+    local-name: system/rqt_joint_trajectory_plot
+    uri: https://github.com/tork-a/rqt_joint_trajectory_plot
+    version: master
+- git:
     local-name: system/timed_roslaunch
     uri: https://github.com/MoriKen254/timed_roslaunch
     version: melodic-devel
@@ -150,6 +154,10 @@
     local-name: system/wifi_ddwrt
     uri: https://github.com/TAMS-Group/wifi_ddwrt
     version: noetic-devel
+- git:
+    local-name: tams/eyeros_msgs
+    uri: https://git.crossmodal-learning.org/philipp.ruppel/eyeros_msgs
+    version: master
 - git:
     local-name: tams/move_base_interpolate
     uri: https://github.com/TAMS-Group/move_base_interpolate
@@ -182,3 +190,7 @@
     local-name: tams/tams_pr2_neopixel
     uri: git@git.crossmodal-learning.org:norman.hendrich/tams_pr2_neopixel.git
     version: master
+- git:
+    local-name: tams/tams_pr2_refine_startup_calibration
+    uri: https://github.com/TAMS-Group/tams_pr2_refine_startup_calibration
+    version: main
