@@ -39,4 +39,9 @@
     local-name: yujin_ocs
     uri: https://github.com/mikepurvis/yujin_ocs.git
     version: patch-1
+- git:
+    local-name: prosilica_driver
+    uri: https://github.com/knorth55/prosilica_driver.git
+    version: plugin-install-fix
+# some missing packages that can install from binary:
 # sudo apt install ros-noetic-kobuki-core ros-noetic-ecl-core pyqt5-dev-tools ros-noetic-base-local-planner ros-noetic-move-base-msgs libsensors4-dev  ros-noetic-depthimage-to-laserscan
