@@ -167,6 +167,10 @@
     uri: https://github.com/TAMS-Group/pr2_caster_test
     version: master
 - git:
+    local-name: tams/tams_audio_monitor
+    uri: https://github.com/TAMS-Group/tams_audio_monitor.git
+    version: master
+- git:
     local-name: tams/tams_biotac
     uri: git@git.crossmodal-learning.org:TAMS/tams_biotac.git
     version: master
