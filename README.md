@@ -14,20 +14,22 @@ source /opt/ros/kinetic/setup.bash
 
 ```bash
 sudo apt install \
-ros-"$ROS_DISTRO"-moveit-visual-tools \
 ros-"$ROS_DISTRO"-cartesian-interface \
 ros-"$ROS_DISTRO"-cartesian-control-msgs \
+ros-"$ROS_DISTRO"-controller-interface \
 ros-"$ROS_DISTRO"-convex-decomposition \
+ros-"$ROS_DISTRO"-ethercat-grant \
 ros-"$ROS_DISTRO"-ivcon \
 ros-"$ROS_DISTRO"-industrial-robot-status-interface \
 ros-"$ROS_DISTRO"-moveit \
-ros-"$ROS_DISTRO"-controller-interface \
+ros-"$ROS_DISTRO"-moveit-visual-tools \
 ros-"$ROS_DISTRO"-realtime-tools \
 ros-"$ROS_DISTRO"-four-wheel-steering-msgs \
 ros-"$ROS_DISTRO"-four-wheel-steering-controller \
 ros-"$ROS_DISTRO"-ros-controllers \
 ros-"$ROS_DISTRO"-gazebo-ros \
 ros-"$ROS_DISTRO"-gazebo-ros-control \
+ros-"$ROS_DISTRO"-pass-through-controllers \
 ros-"$ROS_DISTRO"-pr2-common \
 ros-"$ROS_DISTRO"-pr2-msgs \
 ros-"$ROS_DISTRO"-pr2-description \
@@ -38,7 +40,6 @@ ros-"$ROS_DISTRO"-socketcan-interface \
 ros-"$ROS_DISTRO"-scaled-joint-trajectory-controller \
 ros-"$ROS_DISTRO"-speed-scaling-interface \
 ros-"$ROS_DISTRO"-speed-scaling-state-controller \
-ros-"$ROS_DISTRO"-pass-through-controllers \
 libuv-dev \
 libcap-dev \
 binutils-dev \
