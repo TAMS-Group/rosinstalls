@@ -10,3 +10,7 @@
     local-name: upstream/robotiq
     uri: https://github.com/TAMS-Group/robotiq.git
     version: noetic-devel
+- git:
+    local-name: upstream/bio_ik
+    uri: https://github.com/TAMs-group/bio_ik
+    version: master
