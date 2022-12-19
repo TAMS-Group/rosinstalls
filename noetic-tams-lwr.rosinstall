@@ -5,12 +5,6 @@
     local-name: tams/tams_lwr
     uri: git@git.crossmodal-learning.org:TAMS/tams_lwr.git
 - git:
-    local-name: upstream/apriltag
-    uri: https://github.com/AprilRobotics/apriltag
-- git:
-    local-name: upstream/apriltag_ros
-    uri: https://github.com/AprilRobotics/apriltag_ros
-- git:
     local-name: upstream/frilibrary
     uri: https://github.com/lianghongzhuo/frilibrary.git
 - git:
