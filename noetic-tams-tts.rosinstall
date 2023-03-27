@@ -1,0 +1,8 @@
+- git:
+    local-name: load_venv
+    uri: https://github.com/v4hn/load_venv
+    version: main
+- git:
+    local-name: tams_tts
+    uri: https://github.com/TAMS-Group/tams_tts
+    version: main
