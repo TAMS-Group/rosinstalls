@@ -3,7 +3,7 @@
     uri: https://github.com/TAMS-Group/tams_apriltags.git
 - git:
     local-name: tams/tams_lwr
-    uri: git@git.crossmodal-learning.org:TAMS/tams_lwr.git
+    uri: git@github.com:TAMS-Group/tams_lwr.git
 - git:
     local-name: upstream/frilibrary
     uri: https://github.com/lianghongzhuo/frilibrary.git
