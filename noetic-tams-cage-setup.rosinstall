@@ -10,13 +10,8 @@
 
 - git:
     local-name: tams/tams_f329
-    uri: git@git.crossmodal-learning.org:TAMS/tams_f329.git
+    uri: https://github.com/TAMS-Group/tams_f329.git
     version: motorhand
-
-- git:
-    local-name: tams/tams_hardware_interface_dummy
-    uri: gogs@git.crossmodal-learning.org:philipp.ruppel/tams_hardware_interface_dummy.git
-    version: master
 
 - git:
     local-name: tams/tams_motorhand
@@ -45,10 +40,8 @@
 
 - git:
     local-name: upstream/shadow/sr-ros-interface-ethercat
-    uri: https://github.com/TAMS-Group/sr-ros-interface-ethercat.git
-    version: noetic-devel-on-melodic
-# temporary solution for working noetic-devel code in melodic, will track noetic-devel when our server
-# update to ubuntu 20.04
+    uri: https://github.com/shadow-robot/sr-ros-interface-ethercat.git
+    version: noetic-devel
 
 - git:
     local-name: upstream/shadow/sr_common
