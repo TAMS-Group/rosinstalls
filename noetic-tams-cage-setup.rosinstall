@@ -5,8 +5,8 @@
 
 - git:
     local-name: upstream/universal_robot
-    uri: https://github.com/fmauch/universal_robot.git
-    version: calibration_devel
+    uri: https://github.com/ros-industrial/universal_robot
+    version: noetic-devel
 
 - git:
     local-name: tams/tams_f329
