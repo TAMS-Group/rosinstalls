@@ -17,7 +17,7 @@
 - git:
     local-name: upstream/universal_robot
     uri: https://github.com/ros-industrial/universal_robot.git
-    version: melodic-devel
+    version: noetic-devel
 - git:
     local-name: upstream/robotiq
     uri: https://github.com/TAMS-Group/robotiq.git
