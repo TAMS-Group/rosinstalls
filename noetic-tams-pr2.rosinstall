@@ -1,10 +1,10 @@
 - git:
-    local-name: demos/count_demo
-    uri: git@git.crossmodal-learning.org:TAMS/count_demo
-    version: master
+    local-name: demos/pr2_count_demo
+    uri: git@git.informatik.uni-hamburg.de:tams/pr2_count_demo.git
+    version: main
 - git:
     local-name: demos/vocus2_ros
-    uri: git@git.crossmodal-learning.org:TAMS/vocus2_ros.git
+    uri: git@git.informatik.uni-hamburg.de:tams/vocus2_ros.git
     version: noetic-devel
 - git:
     local-name: moveit/bio_ik
@@ -12,8 +12,8 @@
     version: master
 - git:
     local-name: moveit/moveit_by_name
-    uri: git@git.crossmodal-learning.org:TAMS/moveit_by_name
-    version: master
+    uri: https://github.com/TAMS-Group/moveit_by_name.git
+    version: main
 - git:
     local-name: moveit/moveit_monitoring
     uri: https://github.com/v4hn/moveit_monitoring
@@ -143,12 +143,8 @@
     uri: https://github.com/TAMS-Group/system_monitor.git
     version: master
 - git:
-    local-name: system/timed_roslaunch
-    uri: https://github.com/MoriKen254/timed_roslaunch
-    version: melodic-devel
-- git:
     local-name: system/warehouse_ros_sqlite
-    uri: https://github.com/ros-planning/warehouse_ros_sqlite
+    uri: https://github.com/moveit/warehouse_ros_sqlite
     version: master
 - git:
     local-name: system/wge100_driver
@@ -160,8 +156,8 @@
     version: noetic-devel
 - git:
     local-name: tams/eyeros_msgs
-    uri: https://git.crossmodal-learning.org/philipp.ruppel/eyeros_msgs
-    version: master
+    uri: git@git.informatik.uni-hamburg.de:tams/eyeros_msgs.git
+    version: main
 - git:
     local-name: tams/move_base_interpolate
     uri: https://github.com/TAMS-Group/move_base_interpolate
@@ -180,16 +176,16 @@
     version: master
 - git:
     local-name: tams/tams_biotac
-    uri: git@git.crossmodal-learning.org:TAMS/tams_biotac.git
-    version: master
+    uri: git@git.informatik.uni-hamburg.de:tams/tams_biotac.git
+    version: main
 - git:
     local-name: tams/tams_execute
     uri: https://github.com/TAMS-Group/tams_execute
     version: main
 - git:
     local-name: tams/tams_maps
-    uri: git@git.crossmodal-learning.org:TAMS/tams_maps.git
-    version: master
+    uri: git@git.informatik.uni-hamburg.de:tams/tams_maps.git
+    version: main
 - git:
     local-name: tams/tams_motorhand
     uri: https://github.com/TAMS-Group/tams_motorhand
@@ -204,8 +200,8 @@
     version: master
 - git:
     local-name: tams/tams_pr2_neopixel
-    uri: git@git.crossmodal-learning.org:norman.hendrich/tams_pr2_neopixel.git
-    version: master
+    uri: git@git.informatik.uni-hamburg.de:tams/tams_pr2_neopixel.git
+    version: main
 - git:
     local-name: tams/tams_pr2_refine_startup_calibration
     uri: https://github.com/TAMS-Group/tams_pr2_refine_startup_calibration
